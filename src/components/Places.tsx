@@ -3,7 +3,6 @@ interface PlacesProps {
     placeName: string;
     country: string;
     image: string;
-    attributeImage: string;
     location: string;
     whyLike: string;
   }
@@ -11,7 +10,7 @@ interface PlacesProps {
   function Places(props: PlacesProps): JSX.Element {
     return (
       <section>
-        <img src = {props.image}/>
+        <img src = {props.image} alt = ""/>
         <h2>{props.title}</h2>
         <h4>{props.placeName}, {props.country} <a href = {props.location}>(map link)</a></h4>
         <p>
