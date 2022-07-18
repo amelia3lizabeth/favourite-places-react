@@ -21,4 +21,8 @@ function Places(props: PlacesProps): JSX.Element {
   );
 }
 
+//this function returns a JSX element which creates the html structure for what the favourite places should look like|
+// (how it should be rendered) on the web page
+//JSX element is a mixture of Javascript and HTML
+
 export default Places;

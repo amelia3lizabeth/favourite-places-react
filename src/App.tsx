@@ -11,3 +11,5 @@ function App(): JSX.Element {
 }
 
 export default App;
+
+//This function calls the components that are needed to render everything to the web page

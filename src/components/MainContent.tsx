@@ -49,7 +49,12 @@ const listOfPlaces = [
 ];
 
 const placesList: JSX.Element[] = listOfPlaces.map(mapToComponent);
-// console.log(placesList)
+// the above line returns an Array of JSX Elements. The map() function is used to call the
+//function mapToComponent on an array of raw data that is the favourite places. Everything is
+//then stored in the created variable. It is stores in the html + javascript that can be rendered
+//onto the web page.
+//Then in the function MainContent, this array of JSX elements (placesList) is used.
+//JSX element is a mixture of Javascript and HTML
 
 function MainContent(): JSX.Element {
   return (
@@ -57,12 +62,6 @@ function MainContent(): JSX.Element {
       <section>
         <ol>{placesList}</ol>
       </section>
-      {/* Object.values(listOfPlaces).map(<Places/>) */}
-
-      {/* for (let places of listOfPlaces){
-        places.map(Places())
-      }
-      console.log("I work") */}
     </main>
   );
 }
