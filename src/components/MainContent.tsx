@@ -16,31 +16,45 @@ function MainContent(): JSX.Element {
         whyLike={"Very quiet and peaceful"}
       />
 
-     <Places
+      <Places
         title={"Yummy food and great culture"}
         placeName={"China Town"}
         country={"United Kingdom"}
-        image={"https://images.unsplash.com/photo-1587750571762-5aed5f63edaa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpbmElMjB0b3duJTIwdWt8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"}
-        location = {"https://www.google.com/maps/d/u/0/viewer?mid=1Dtiz83t1jPaHuV6yQZerTq_cilA&hl=en&ll=40.715467%2C-73.997984&z=16"}
+        image={
+          "https://images.unsplash.com/photo-1587750571762-5aed5f63edaa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpbmElMjB0b3duJTIwdWt8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+        }
+        location={
+          "https://www.google.com/maps/d/u/0/viewer?mid=1Dtiz83t1jPaHuV6yQZerTq_cilA&hl=en&ll=40.715467%2C-73.997984&z=16"
+        }
         whyLike={"I love eating the food and learning the language"}
       />
 
-<Places
+      <Places
         title={"Amazing mix of cultures and people"}
         placeName={"Seoul"}
         country={"South Korea"}
-        image={"https://images.unsplash.com/photo-1538485399081-7191377e8241?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2VvdWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"}
-        location={"https://www.google.com/maps/place/Seoul,+South+Korea/@37.5638561,126.9740863,11z/data=!3m1!4b1!4m5!3m4!1s0x357ca2012d5c39cf:0x7e11eca1405bf29b!8m2!3d37.566535!4d126.9779692"}
-        whyLike= {"Amazing blend cultures and people"}
+        image={
+          "https://images.unsplash.com/photo-1538485399081-7191377e8241?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2VvdWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+        }
+        location={
+          "https://www.google.com/maps/place/Seoul,+South+Korea/@37.5638561,126.9740863,11z/data=!3m1!4b1!4m5!3m4!1s0x357ca2012d5c39cf:0x7e11eca1405bf29b!8m2!3d37.566535!4d126.9779692"
+        }
+        whyLike={"Amazing blend cultures and people"}
       />
 
-<Places
+      <Places
         title={"Innovation Hub"}
         placeName={"Super Tree Grove"}
         country={"Singapore"}
-        image={"https://images.unsplash.com/photo-1508964942454-1a56651d54ac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG5hdGlvbmFsJTIwdW5pdmVyc2l0eSUyMG9mJTIwc2luZ2Fwb3JlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"}
-        location={"https://www.google.co.uk/maps/place/Supertree+Grove/@1.2819617,103.861717,17z/data=!3m1!4b1!4m5!3m4!1s0x31da19030a47894f:0xc974a469e9c48096!8m2!3d1.2819617!4d103.8639057"}
-        whyLike={"Singapore is a country of knowledge and innovation, with many beautiful sights to see"}
+        image={
+          "https://images.unsplash.com/photo-1508964942454-1a56651d54ac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG5hdGlvbmFsJTIwdW5pdmVyc2l0eSUyMG9mJTIwc2luZ2Fwb3JlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        }
+        location={
+          "https://www.google.co.uk/maps/place/Supertree+Grove/@1.2819617,103.861717,17z/data=!3m1!4b1!4m5!3m4!1s0x31da19030a47894f:0xc974a469e9c48096!8m2!3d1.2819617!4d103.8639057"
+        }
+        whyLike={
+          "Singapore is a country of knowledge and innovation, with many beautiful sights to see"
+        }
       />
     </main>
   );
